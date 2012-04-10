@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <!--/* 
+             * Spotify application: Subscribey
+             *
+             * Developers:  Mick van Dijk
+             *              Randy Dijkstra
+             *
+             * © 2012 Subscribey Applications. All rights reserved.
+             */-->
+
+        <title>Subscribey</title>
+
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="sp://import/css/eve.css" />
+    	<link rel="stylesheet" href="sp://import/css/api.css" />
+  	</head>
+  	<body onload="sp = getSpotifyApi(1); subscribey = sp.require('js/subscribey'); subscribey.init();">
+        <header>
+            <img src="img/subscribey.png" alt="Subscribey">
+        </header>
+
+        <div id="container">
+
+        <div id="index" class="section">
+
+            <div id="player-information">
+                <div id="player-left">
+                    <div id="current-album">
+                        <div class="album-cover"></div>
+                         <a href="#" id="sharer">
+                            <div id="share"></div>
+                            <button class="add-playlist button icon"><span class="share"></span>Share</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="player-right">
+                    <div id="current-track">
+                        <p>Now playing:</p>
+                        <h1 id="title">Hello, artist!</h1>
+
+                        <div class="artist-title"></div>
+                        <div class="album-title"></div>
+                    </div> 
+                </div>
+
+                <div id="similar-artists">
+                    <h2>Similar Artists</h2>
+                    <div class="similar-artist-album"></div>
+                </div>
+            </div>
+
+            <div id="player">
+                <div class="player-container">
+                    <div class="albumcover"></div>
+                    <div class="playlist"></div>
+                </div>
+
+                <div class="subscribe">
+                    <button class="add-playlist button icon"><span class="plus"></span>Subscribe</button>
+                </div>
+            </div>
+            
+            <div id="other-information">
+                <div class="topalbum">
+                    <h2>Top albums</h2>
+                    <div class="topalbumcover"></div>
+                </div>
+
+                <div class="clearfix"></div>
+
+                <h2>Top tracks</h2>
+                <div class="toptracks">
+                    <div class="toptracks-title"></div>
+                </div>
+
+                <div class="clearfix"></div>
+            </div>
+         
+        </div>
+
+        <div id="tabs" class="section">
+            <h1>About Subscribey</h1>
+
+            <div class="about-img">
+                <img src="img/subscribey-s.png" alt="Subscribey"> 
+            </div>
+
+            <div class="about-info">
+                <div class="about-info-intro">
+                    <p><strong>Subscribey is a Spotify app developed by Mick van Dijk and Randy Dijkstra as a schoolproject for <a href="http://hro.nl/">Hogeschool Rotterdam</a>.</strong></p>
+
+                    <p>Subscribey has a simple purpose of letting you subscribe to an album as a playlist, of the current song you are listening to!</p>
+                </div>
+
+                <h2>Functionalities</h2>
+                <p>In our applicaties we have multiple functions. We are getting information out of Spotify and Last.FM. You can find the following functions in the app:</p>
+
+                <ul>
+                    <li><strong>Tabs</strong></li>
+                    <li><strong>Last.FM</strong>:</li>
+                    <ul>
+                        <li>Get Similar artists</li>
+                        <li>Get Topalbums</li>
+                        <li>Get Toptracks</li>
+                    </ul>
+                    <li><strong>Track info</strong></li>
+                    <li><strong>Playlist</strong></li>
+                    <li><strong>Subscribe</strong></li>
+                    <li><strong>Share</strong></li>
+                </ul>
+
+                <div class="developers">
+                    <h2>Developers of Subscribey</h2>
+
+                    <div class="developer">
+                        <h2>Mick van Dijk</h2>
+
+                        <p>Email: <a href="mailto:info@mickert.nl">info@mickert.nl</a><br />
+                        Website: <a href="http://www.mickert.nl">www.mickert.nl</a></p>
+                    </div>
+
+                    <div class="developer">
+                        <h2>Randy Dijkstra</h2>
+
+                        <p>Email: <a href="mailto:randydijkstra92@gmail.com">randydijkstra92@gmail.com</a></p>
+                    </div>                    
+                </div>
+
+                <div class="clearfix"></div>
+            </div>
+        </div>
+
+        </div>
+
+        <footer>
+            <p>&copy; Subscribey application</p>
+        </footer>
+
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/subscribey.js" ></script>
+  	</body>
+</html>
