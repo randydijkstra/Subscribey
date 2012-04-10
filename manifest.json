@@ -1,0 +1,37 @@
+{
+  "AppDescription": {
+    "en": "Subscribey on the songs album!"
+  },
+  "AppIcon": {
+    "36x18": "subscribey-icon.png"
+  },
+  "AppName": {
+    "en": "Subscribey"
+  },
+  "BundleIdentifier": "subscribey",
+  "BundleType": "Application",
+  "BundleVersion": "0.1",
+  "DefaultTabs": [
+    {
+      "arguments": "index",
+      "title": {
+        "en": "Home"
+      }
+    },
+    {
+      "arguments": "tabs",
+      "title": {
+        "en": "About"
+      }
+        }
+  ],
+  "RequiredInterface": 1,
+  "RequiredPermissions": [
+      "http://*.spotify.com",
+      "http://*.audioscrobbler.com",
+      "http://*.last.fm"
+  ],
+  "SupportedLanguages": [
+    "en"
+  ]
+}

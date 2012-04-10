@@ -1,0 +1,228 @@
+/* 
+ * Spotify application: Subscribey
+ *
+ * Developers:  Mick van Dijk
+ *              Randy Dijkstra
+ *
+ * © 2012 Subscribey Applications. All rights reserved.
+ */
+
+
+/*
+ * header & container
+ */ 
+
+html, body {
+  font-family: "Helvetica Neue", "Helvetica", "Georgia", "Arial";
+}
+
+#container {
+  margin: 0 auto;
+  padding: 10px;  
+  width: 800px;
+}
+
+
+/* 
+ * headings 
+ */
+
+h1#title {
+  display: block;
+  margin: 5px 0 25px;
+  color: #444;
+  font-size: 1.8em;
+}
+
+h2 {
+  padding-left: 5px;
+  font-size: 1.3em;
+}
+
+
+/* 
+ * header & footer
+ */
+
+header {
+  background: #dcdbd8;
+  border-bottom: 2px solid #fff;
+	height: 60px;	
+  opacity: 0.7;
+  text-align: center;
+}
+
+header h1 {
+  padding-top: 15px;
+}
+
+header img {
+  margin-top: 18px;
+}
+
+footer {
+  background: #dcdbd8;
+  height: 50px; 
+  opacity: 0.7;
+  text-align: center;
+}
+
+footer p {
+  padding-top: 15px;
+}
+
+
+/* 
+ * player top 
+ */
+
+#player-information {
+  height: 200px;
+  padding: 10px;
+}
+
+#player-left {
+  float: left;
+}
+
+.album-cover {
+  border-radius: 5px 5px 5px 5px;
+  height: 128px;
+  width: 128px;
+  margin: 10px 0; 
+}
+
+#player-right {
+  float: left;
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 300px;
+}
+
+.artist-title a {
+  color: #000;
+  font-weight: bold;
+}
+
+#similar-artists {
+  float: left;
+  margin: 25px 0;
+}
+
+.similar-artist-album img {
+  margin: 0 5px;
+}
+
+
+/* 
+ * player 
+ */
+
+#player {
+  padding: 10px;
+  margin-bottom: 25px;
+}
+
+.albumcover {
+  float: left;
+  margin-right: 10px;
+}
+
+.subscribe { 
+  clear: both; 
+}
+
+
+/* 
+ * other information 
+ */
+
+#other-information {
+  background: #dcdbd8;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 25px;
+}
+
+#other-information h2 {
+  text-shadow: none;
+  text-align: left;
+}
+
+.topalbum {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.topalbumcover img {
+  margin: 0 5px;
+}
+
+.toptracks {
+  text-align: center;
+}
+
+.toptrack-container {
+  background: #ECEBE8;
+  border-radius: 5px;
+  float: left;
+  margin: 0 12px;
+  padding: 10px;
+  width: 150px;
+}
+
+.playcount {
+  font-size: 0.8em;
+}
+
+
+/*
+ * About tab section
+ */
+
+.about-img {
+  float: left;
+  width: 200px;
+}
+
+.about-img img {
+  border: 2px solid #FFF;
+  margin: 0 10px 10px 0;
+}
+
+.about-info p {
+  margin-bottom: 20px;
+}
+
+.about-info ul {
+  list-style-type: circle;
+  margin-left: 20px;
+}
+
+.about-info-intro {
+  color: #000;
+}
+
+.developers {
+  margin: 25px 0;
+}
+
+.developer {
+  background: #dcdbd8;
+  border-radius: 5px;
+  float: left;
+  padding: 10px;
+  margin: 0 25px 25px 25px;
+  width: 320px;
+}
+
+
+/* 
+ * spotify edits 
+ */
+
+.clearfix { clear:both; }
+
+.sp-list {
+  width: auto !important;
+}
