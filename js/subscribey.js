@@ -37,6 +37,8 @@ function init() {
 	updatePageWithAlbumCover();
 	lastfmInfo();
 	tabs();
+
+	models.application.observe(models.EVENT.ARGUMENTSCHANGED, albumPlayer);
 	
 	sp.trackPlayer.addEventListener("playerStateChanged", function (event) {
 		// Only update the page if the track changed
